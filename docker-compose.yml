@@ -1,0 +1,18 @@
+influxdb:
+  image: influxdb:1.2
+  # ports:
+    # - "8086:8086"
+
+# influx-stress:
+  # build: .
+  # env_file: ../shotgun-credentials/files/docker_env/www/docker_env_dev
+  # volumes:
+  #   - "./src/html/:/var/www/com_shotgunsoftware_account/html/"
+  #   - "./src/python/:/var/www/com_shotgunsoftware_account/python/"
+  #   - "./src/templates/:/var/www/com_shotgunsoftware_account/templates/"
+  # environment:
+  #   - MODE=test
+  #   - INTERNAL_URL=http://internal-staging.shotgunstudio.int
+  #   - MAIL_SERVER=mail-staging.shotgunstudio.int
+  # ports:
+  #   - "80:80"
